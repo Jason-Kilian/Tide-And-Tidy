@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Contact | Property Name</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <img src="images/T&T.png" class="logo" alt="Logo" />
+
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="properties.html">Properties</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="contact-hero fade-in">
+      <div class="contact-hero-content">
+        <h1>We’d Love to Hear From You</h1>
+        <p>
+          Whether you're ready to book or have a question, we're here to help.
+        </p>
+      </div>
+    </section>
+
+    <section class="section contact-section">
+      <div class="container contact-grid">
+        <div class="contact-details">
+          <h2>Get In Touch</h2>
+          <p>
+            Planning your stay in beautiful Struisbaai? Feel free to reach out
+            for availability, pricing, or any questions about the property. We
+            aim to respond as quickly as possible.
+          </p>
+
+          <div class="contact-info">
+            <p>
+              <strong>Email:</strong><br />
+              <a href="mailto:tideandtidy.rentals@gmail.com"
+                >tideandtidy.rentals@gmail.com</a
+              >
+            </p>
+
+            <p>
+              <strong>WhatsApp:</strong><br />
+              <a href="https://wa.me/27716008588" target="_blank"
+                >Tide & Tidy Holiday Accommodation Rental</a
+              >
+            </p>
+          </div>
+        </div>
+
+        <div class="contact-form">
+          <h2>Send an Enquiry</h2>
+
+          <form id="whatsappForm">
+            <input type="text" id="name" placeholder="Full Name" required />
+            <input
+              type="email"
+              id="email"
+              placeholder="Email Address"
+              required
+            />
+            <textarea
+              id="message"
+              placeholder="Your Message"
+              required
+            ></textarea>
+            <button type="submit">Send Enquiry</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section class="map-section">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18..."
+        width="100%"
+        height="350"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+      >
+      </iframe>
+    </section>
+
+    <footer>
+      <p>
+        © 2026 Tide And Tidy - Holiday Accommodation Rental. All rights
+        reserved.
+      </p>
+    </footer>
+
+    <a href="https://wa.me/27716008588" class="floating-wa" target="_blank">
+      💬
+    </a>
+
+    <script>
+      document
+        .getElementById("whatsappForm")
+        .addEventListener("submit", function (e) {
+          e.preventDefault();
+
+          const name = document.getElementById("name").value;
+          const email = document.getElementById("email").value;
+          const message = document.getElementById("message").value;
+
+          const phoneNumber = "27716008588";
+
+          const whatsappMessage =
+            "New Website Enquiry:%0A%0A" +
+            "Name: " +
+            name +
+            "%0A" +
+            "Email: " +
+            email +
+            "%0A%0A" +
+            "Message:%0A" +
+            message;
+
+          const whatsappURL =
+            "https://wa.me/" + phoneNumber + "?text=" + whatsappMessage;
+
+          window.open(whatsappURL, "_blank");
+        });
+    </script>
+  </body>
+</html>
