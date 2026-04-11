@@ -201,7 +201,7 @@ nav a:hover {
   font-size: 2.8rem;
 }
 
-/* ABOUT CONTENT (RESTORED SIMPLE LAYOUT) */
+/* ABOUT CONTENT */
 .about-content {
   padding: 100px 0;
   background: white;
@@ -227,7 +227,7 @@ nav a:hover {
   color: #555;
 }
 
-/* CONTACT HERO (FINAL VERSION KEPT) */
+/* CONTACT HERO */
 .contact-hero {
   background: url("images/BoardWalk 7/WhatsApp Image 2026-03-12 at 22.19.26 (3).jpeg")
     center/cover no-repeat;
@@ -310,7 +310,7 @@ button:hover {
   transform: translateY(-2px);
 }
 
-/* SLIDESHOW (FINAL VERSION KEPT) */
+/* SLIDESHOW */
 .slideshow-container {
   max-width: 900px;
   width: 90%;
@@ -333,7 +333,7 @@ button:hover {
   object-fit: cover;
 }
 
-/* PROPERTY SECTION CLEANED */
+/* PROPERTY SECTION */
 .properties-section {
   padding: 80px 10%;
   text-align: center;
@@ -515,7 +515,7 @@ footer {
   max-width: 700px;
   margin: auto;
   text-align: center;
-  min-height: 180px; /* prevents page jumping */
+  min-height: 180px;
 }
 
 /* NAV BUTTONS (FIXED VISIBILITY) */
