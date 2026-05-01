@@ -241,9 +241,9 @@ nav a:hover {
   position: relative;
 }
 
-/* CONTACT GRID (BACK TO SIMPLE STACKED LAYOUT) */
+/* CONTACT GRID  */
 .contact-grid {
-  display: block; /* removes side-by-side layout */
+  display: block; 
 }
 
 /* CONTACT SECTIONS */
@@ -518,7 +518,7 @@ footer {
   min-height: 180px;
 }
 
-/* NAV BUTTONS (FIXED VISIBILITY) */
+/* NAV BUTTONS  */
 .property-slider .prev,
 .property-slider .next {
   position: absolute;
@@ -584,7 +584,7 @@ footer {
 @media (max-width: 768px) {
   .properties-grid {
     grid-template-columns: 1fr;
-    gap: 25px; /* reduce from 40px */
+    gap: 25px; 
     padding: 0 15px;
   }
 }
@@ -676,7 +676,7 @@ footer {
   padding: 0 10px;
 }
 
-/* HAMBURGER (hidden on desktop) */
+/* HAMBURGER */
 .hamburger {
   display: none;
   font-size: 28px;
